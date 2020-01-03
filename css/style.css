@@ -1,0 +1,57 @@
+/*estilos fenerales*/
+
+body{
+	background-image: url("img/fondo.jpg");
+	background-repeat: repeat;
+	
+	
+}
+
+
+/*cabecero*/
+.logo{
+	width: 200px;
+	 height: 30px;
+	 opacity: .8;
+}
+.logo:hover{
+	
+	 opacity: 1;
+
+}
+
+.acceder{
+	width:150px;
+}
+
+
+
+
+
+/*footer*/
+footer{
+	background: black;
+	color:white;
+	padding-bottom: 20px;
+	text-align: justify;
+}
+ .redes-sociales{
+ 	padding-left: 25px;
+ }
+ .redes-sociales a {
+	color: #fff;
+	text-align: center;
+	width: 100px;
+	/*display: block;*/
+	padding: 15px 0;
+	border-radius: 3px;
+	font-size: 25px;
+	margin: 0 20px;
+
+}
+
+footer .redes-sociales .twitter:hover {	color: #1da1f2; }
+footer .redes-sociales .facebook:hover { color: #3b5998; }
+footer .redes-sociales .youtube:hover {	color: #cd201f; }
+footer .redes-sociales .github:hover { color: #666666; }
+footer .redes-sociales .instagram:hover { color: #3f729b; }
